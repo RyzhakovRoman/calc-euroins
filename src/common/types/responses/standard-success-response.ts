@@ -1,0 +1,3 @@
+interface StandardSuccessResponseInterface {
+    success: true
+}

@@ -1,0 +1,332 @@
+.hidden {
+  display: none;
+}
+
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.calc-card {
+  padding: 24px 28px;
+  box-shadow: 0 6px 16px -4px rgba(26, 45, 65, 0.3);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+.calc-card h2 {
+  margin-bottom: 1em;
+  line-height: 1.2;
+}
+@media (max-width: 768px) {
+  .calc-card h2 {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 480px) {
+  .calc-card {
+    padding: 18px 20px;
+  }
+}
+
+.country-selection__select {
+  width: 1000px;
+  max-width: 100%;
+}
+.country-selection__radio-group > label {
+  display: block;
+}
+
+.e-date-mask {
+  width: 120px;
+}
+
+.single-trip__days-amount {
+  width: 100px !important;
+}
+.single-trip__item-wrapper {
+  margin-bottom: 0 !important;
+}
+
+.trip-dates__item-wrapper {
+  margin-bottom: 0;
+  flex-direction: row !important;
+}
+
+.insured-birthdays__item {
+  padding-right: 2rem;
+}
+.insured-birthdays__icon-minus {
+  position: absolute;
+  right: 6px;
+  top: 10px;
+  font-size: 1.25rem;
+}
+.insured-birthdays__add-button {
+  margin-left: 1rem;
+}
+
+.e-second-program__title {
+  font-weight: 400;
+  font-size: 0.9em;
+  white-space: pre-wrap;
+  line-height: 1;
+}
+.e-second-program__icon {
+  margin-bottom: 14px;
+}
+.e-second-program .ant-card-head-wrapper {
+  align-items: flex-start;
+}
+.e-second-program .ant-card-head-title {
+  line-height: 1;
+}
+
+.promocode__checkbox_margin_bottom {
+  margin-bottom: 10px;
+}
+
+.e-sa__img {
+  width: 100%;
+  max-width: 230px;
+}
+.e-sa__select {
+  width: 100%;
+}
+
+.e-awr {
+  line-height: 1.3em;
+}
+@media (max-width: 576px) {
+  .e-awr {
+    line-height: 2rem;
+  }
+}
+
+.e-covid-option__item {
+  margin-top: 0.6rem;
+}
+
+.e-passport-data__serial-col {
+  width: 70px;
+}
+.e-passport-data__serial {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.e-passport-data__number-col {
+  width: 90px;
+  margin-left: -1px;
+}
+.e-passport-data__number {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.e-insurant-info__reset {
+  margin-left: 0.8rem;
+  border-bottom: 1px solid;
+  cursor: pointer;
+}
+.e-insurant-info__insureds {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.calc-header__steps {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.calc-header__step {
+  cursor: pointer;
+}
+@media (min-width: 1024px) {
+  .ant-steps-item-title:after {
+    top: 26px;
+  }
+  .ant-steps-item-icon {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 22px;
+  }
+  .ant-steps-item-title {
+    font-size: 18px;
+    line-height: 50px;
+  }
+}
+
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.calc-check {
+  background-color: #fff;
+  padding: 60px 0 60px 60px;
+  margin-bottom: 14px;
+}
+@media (max-width: 1200px) {
+  .calc-check {
+    padding-left: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .calc-check {
+    padding: 30px 0 40px 0;
+    margin-bottom: 14px;
+  }
+  .calc-check > p,
+  .calc-check > div,
+  .calc-check > h2,
+  .calc-check > h3 {
+    padding: 0 18px;
+  }
+  .calc-check p {
+    margin-bottom: 0.4em;
+  }
+  .calc-check .ant-divider-horizontal {
+    margin: 10px 0;
+  }
+}
+.absolute-bottom .ant-affix {
+  position: absolute !important;
+  bottom: 0;
+  top: auto !important;
+  height: auto !important;
+  transition: all 0.2s;
+}
+
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.check__icon {
+  color: #0a1971;
+}
+
+.e-calc {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.e-check-cost {
+  margin-bottom: 1rem;
+}
+.e-check-cost span {
+  font-size: 3rem !important;
+  font-weight: 600;
+  color: #0a1971;
+}
+.e-check-cost__loading {
+  margin-top: 0.8rem;
+  font-size: 3rem !important;
+}
+.e-check-cost__total-cost-label {
+  margin: 0;
+}
+@media (max-width: 1200px) {
+  .e-check-cost span {
+    font-size: 2rem !important;
+  }
+  .e-check-cost__loading {
+    font-size: 2rem !important;
+  }
+}
+.e-cost-without-bonuses {
+  color: gray;
+  margin-top: -1rem;
+}
+.e-cost-without-bonuses__canceled {
+  font-size: 1.5em;
+  font-weight: 600;
+  text-decoration: line-through;
+}
+@media (max-width: 768px) {
+  .e-cost-without-bonuses {
+    margin-top: -0.5rem;
+  }
+  .e-cost-without-bonuses .e-cost-without-bonuses__canceled {
+    font-size: 1.5em !important;
+    font-weight: 600;
+    text-decoration: line-through;
+    color: gray !important;
+  }
+  .e-cost-without-bonuses .e-cost-without-bonuses__text {
+    font-size: 1rem !important;
+    color: gray !important;
+  }
+}
+
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.e-ccfss {
+  position: absolute;
+  width: 100vw;
+  transition: all 0.4s;
+}
+.e-ccfss__cost-col {
+  width: 100%;
+  margin-bottom: 0;
+  transition: all 0.4s;
+}
+.e-ccfss__cost {
+  font-size: 14px;
+}
+.e-ccfss__cost + span {
+  font-size: 1.5rem;
+  color: #0a1971;
+}
+.e-ccfss__prev-col {
+  display: none;
+}
+.e-ccfss_affixed .ant-affix {
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  box-shadow: 0 6px 25px rgba(10, 25, 113, 0.4);
+}
+.e-ccfss_affixed .e-ccfss__cost-col {
+  width: auto;
+  padding: 0 8px 6px 2px;
+  background-color: #fff;
+  font-size: 1.5rem;
+  line-height: 1.1em;
+  text-align: right;
+}
+.e-ccfss_affixed .e-ccfss__cost {
+  margin: 0;
+}
+.e-ccfss_affixed .e-ccfss__prev-col {
+  display: block;
+  padding: 8px;
+  color: #fff;
+}
+
+.e-control-block__button {
+  width: 100%;
+  box-shadow: 0 6px 16px -4px rgba(26, 45, 65, 0.3);
+}
+
+.calc-phone-checker-sms-info {
+  text-align: center;
+  color: #f5222d;
+}
+
+.item_without-margin {
+  margin-bottom: 0;
+}
+.e-link_underline {
+  text-decoration: underline;
+}
+.e-hide {
+  display: none;
+}
+
+
+/*# sourceMappingURL=index.dev.css.map*/

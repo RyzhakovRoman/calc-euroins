@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>vzr_main</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../../../node_modules/react/umd/react.development.js" defer></script>
+    <script src="../../../node_modules/react-dom/umd/react-dom.development.js" defer></script>
+    <script src="../../../dist/js/calc/travel/main/runtime.dev.js" defer></script>
+    <script src="../../../dist/js/calc/travel/main/vendors~index.dev.js" defer></script>
+    <script src="../../../dist/js/calc/travel/main/index.dev.js" defer></script>
+    <link href="../../../dist/js/calc/travel/main/vendors~index.dev.css" rel="stylesheet">
+    <link href="../../../dist/js/calc/travel/main/index.dev.css" rel="stylesheet">
+</head>
+<body>
+<style type="text/css">
+    .calc {
+        padding: 20px;
+    }
+</style>
+<div style="height: 500px"></div>
+<div id="eu-travel-calc-cont"></div>
+<div style="height: 800px"></div>
+<script>
+    window.addEventListener(
+        'load',
+        function () {
+            setTimeout(() => {
+                new TravelCalculator('eu-travel-calc-cont', {
+                    code: 'MTAwMTEwMDE4MDAwMDc4',
+                })
+            }, 1000)
+        }
+    );
+</script>
+</body>
+</html>

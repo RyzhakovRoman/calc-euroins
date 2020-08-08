@@ -1,0 +1,55 @@
+@import '~antd/lib/style/themes/default.less';
+
+.e-ccfss {
+    position: absolute;
+    width: 100vw;
+    transition: all 0.4s;
+
+    &__cost-col {
+        width: 100%;
+        //padding-left: 32px;
+        margin-bottom: 0;
+        transition: all 0.4s;
+    }
+
+    &__cost {
+        font-size: 14px;
+
+        & + span {
+            font-size: 1.5rem;
+            color: @primary-color;
+        }
+    }
+
+    &__prev-col {
+        display: none;
+    }
+
+    &_affixed {
+        .ant-affix {
+            left: 0;
+            right: 0;
+            background-color: #fff;
+            box-shadow: 0 6px 25px rgba(10, 25, 113, 0.4);
+        }
+
+        .e-ccfss__cost-col {
+            width: auto;
+            padding: 0 8px 6px 2px;
+            background-color: #fff;
+            font-size: 1.5rem;
+            line-height: 1.1em;
+            text-align: right;
+        }
+
+        .e-ccfss__cost {
+            margin: 0;
+        }
+
+        .e-ccfss__prev-col {
+            display: block;
+            padding: 8px;
+            color: #fff;
+        }
+    }
+}

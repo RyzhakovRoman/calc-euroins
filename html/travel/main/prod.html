@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>ВЗР 2.0</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://euro-ins.ru/front/v2/dist/js/calc/travel/main/calculator.js" defer></script>
+</head>
+<body>
+<style type="text/css">
+    .eu-travel-calc-cont {
+        max-width: 1800px;
+        margin: 0 auto;
+    }
+</style>
+<div style="height: 500px"></div>
+<div id="eu-travel-calc-cont"></div>
+<div style="height: 800px"></div>
+<script>
+    (function () {
+        window.addEventListener('eCalcLoaded', function () {
+            new TravelCalculator(
+                'eu-travel-calc-cont',
+                {
+                    code: 'MTAwMTEwMDE4MDAwMDc4',
+                    // bonuses: {
+                    //     count: 142
+                    // },
+                    // clientIsn: '1233242'
+                }
+            )
+        })
+    })()
+</script>
+</body>
+</html>

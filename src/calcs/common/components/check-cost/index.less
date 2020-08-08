@@ -1,0 +1,57 @@
+@import '~antd/lib/style/themes/default.less';
+
+.e-check-cost {
+    margin-bottom: 1rem;
+
+    span {
+        font-size: 3rem !important;
+        font-weight: 600;
+        color: @primary-color;
+    }
+
+    &__loading {
+        margin-top: .8rem;
+        font-size: 3rem !important;
+    }
+
+    &__total-cost-label {
+        margin: 0;
+    }
+
+    @media (max-width: @screen-xl) {
+        span {
+            font-size: 2rem !important;
+        }
+
+        &__loading {
+            font-size: 2rem !important;
+        }
+    }
+}
+
+.e-cost-without-bonuses {
+    color: gray;
+    margin-top: -1rem;
+
+    &__canceled {
+        font-size: 1.5em;
+        font-weight: 600;
+        text-decoration: line-through;
+    }
+
+    @media (max-width: @screen-md) {
+        margin-top: -0.5rem;
+
+        & &__canceled {
+            font-size: 1.5em !important;
+            font-weight: 600;
+            text-decoration: line-through;
+            color: gray !important;
+        }
+
+        & &__text {
+            font-size: 1rem !important;
+            color: gray !important;
+        }
+    }
+}

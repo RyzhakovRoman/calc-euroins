@@ -1,0 +1,45 @@
+@import '~antd/lib/style/themes/default.less';
+
+.calc-check {
+    background-color: #fff;
+    padding: 60px 0 60px 60px;
+    margin-bottom: 14px;
+}
+
+@media (max-width: @screen-xl) {
+    .calc-check {
+        padding-left: 40px;
+    }
+}
+
+@media (max-width: @screen-md) {
+    .calc-check {
+        padding: 30px 0 40px 0;
+        margin-bottom: 14px;
+
+        & > p,
+        & > div,
+        & > h2,
+        & > h3 {
+            padding: 0 18px;
+        }
+    }
+
+    .calc-check {
+        p {
+            margin-bottom: 0.4em;
+        }
+
+        .ant-divider-horizontal {
+            margin: 10px 0;
+        }
+    }
+}
+
+.absolute-bottom .ant-affix {
+    position: absolute !important;
+    bottom: 0;
+    top: auto !important;
+    height: auto !important;
+    transition: all 0.2s;
+}
